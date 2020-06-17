@@ -3,7 +3,7 @@ var domino_set
 domino_set = [];
 
 
-(function makeDominos () {
+(function generateDominos () {
 
   for (var y = 0; y <= 9; y++) {
     for (var x = 0; x <= y; x++) {
