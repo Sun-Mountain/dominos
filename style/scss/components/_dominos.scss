@@ -1,4 +1,6 @@
 .domino__container {
+  margin: $buffer;
+
   .domino-body {
     border: 1px solid $dark-grey;
     border-radius: 10px;
