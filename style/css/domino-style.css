@@ -1,3 +1,22 @@
 /* Colors */
+/* Dot colors */
+/* Dimensions */
+.domino__container .domino-body {
+  border: 1px solid #121212;
+  border-radius: 10px;
+  padding: 8px;
+  /* Dimensions */
+  height: 120px;
+  width: 60px; }
+.domino__container .domino-half {
+  /* Dimensions */
+  height: 60px;
+  width: 60px; }
+.domino__container .domino-body-top {
+  border-bottom: 1px solid #121212; }
+.domino__container .domino-dot__container {
+  display: grid;
+  grid-template-columns: repeat(3, 20px);
+  grid-template-rows: repeat(3, 20px); }
 
 /*# sourceMappingURL=domino-style.css.map */

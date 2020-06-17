@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,YAAY",
-"sources": ["../scss/settings/_0_variables.scss"],
+"mappings": "AAAA,YAAY;AAGZ,gBAAgB;AAWhB,gBAAgB;ACbd,+BAAa;EACX,MAAM,EAAE,iBAAoB;EAC5B,aAAa,EAAE,IAAI;EAEnB,OAAO,EDcF,GAAG;ECZR,gBAAgB;EAChB,MAAM,EDOM,KAAK;ECNjB,KAAK,EDOM,IAAI;ACJjB,+BAAa;EACX,gBAAgB;EAChB,MAAM,EDGW,IAAkB;ECFnC,KAAK,EDCM,IAAI;ACEjB,mCAAiB;EACf,aAAa,EAAE,iBAAoB;AAGrC,yCAAuB;EACrB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAA4B;EACnD,kBAAkB,EAAE,eAAkC",
+"sources": ["../scss/settings/_0_variables.scss","../scss/components/_dominos.scss"],
 "names": [],
 "file": "domino-style.css"
 }

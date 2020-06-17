@@ -1,0 +1,28 @@
+.domino__container {
+  .domino-body {
+    border: 1px solid $dark-grey;
+    border-radius: 10px;
+
+    padding: $buffer;
+
+    /* Dimensions */
+    height: $domino-height;
+    width: $domino-width;
+  }
+
+  .domino-half {
+    /* Dimensions */
+    height: $domino-half-height;
+    width: $domino-width;
+  }
+
+  .domino-body-top {
+    border-bottom: 1px solid $dark-grey;
+  }
+
+  .domino-dot__container {
+    display: grid;
+    grid-template-columns: repeat(3, $domino-width / 3);
+    grid-template-rows: repeat(3, $domino-half-height / 3);
+  }
+}

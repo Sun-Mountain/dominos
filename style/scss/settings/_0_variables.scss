@@ -1,2 +1,20 @@
 /* Colors */
 $dark-grey: #121212;
+
+/* Dot colors */
+$one: $dark-grey;
+$two: #4AA564;
+$three: #981B1E;
+$four: #FDB81E;
+$five: #205493;
+$six: #CD2026;
+$seven: #F5ADB9;
+$eight: #02BFE7;
+$nine: #112E51;
+
+/* Dimensions */
+$domino-height: 120px;
+$domino-width: 60px;
+$domino-half-height: $domino-height / 2;
+
+$buffer: 8px;
