@@ -34,8 +34,9 @@
     width: 12px; }
 
 .dot-count-1 {
-  background-color: #121212;
   grid-area: 2 / 2 / 2 / 2; }
+  .dot-count-1 .dot {
+    background-color: #121212; }
 
 .dot-count-2 .dot {
   background-color: #4AA564; }
