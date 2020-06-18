@@ -46,7 +46,9 @@
         background-color: $one;
       }
 
-      grid-area: 2 / 2 / 2 / 2;
+      #dot-1 {
+        grid-area: 2 / 2 / 2 / 2 !important;
+      }
     } @else if $i == 2 {
       .dot {
         background-color: $two;

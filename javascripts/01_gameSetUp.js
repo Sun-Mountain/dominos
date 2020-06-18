@@ -4,7 +4,6 @@ domino_set = [];
 
 set = document.getElementById("set");
 
-
 (function gameSetUp () {
 
   generateDominoSet();
@@ -20,7 +19,6 @@ function generateDominoSet() {
 
   domino_set.forEach(buildDominos);
 };
-
 
 function buildDominos(item, index) {
   // variables
@@ -49,10 +47,23 @@ function buildDominos(item, index) {
     if (i % 2 == 1) {
       domino_half.classList.add("domino-body-top");
       dot_container.classList.add("dot-count-" + top_dots);
+
+      for(var j = 1; j <= top_dots; j++) {
+        dot = document.createElement("DIV");
+        dot.classList.add("dot");
+        dot.setAttribute("id", "dot-" + j);
+        dot_container.appendChild(dot);
+      }
     } else {
-      console.log("butt")
       domino_half.classList.add("domino-body-bottom");
       dot_container.classList.add("dot-count-" + bottom_dots);
+
+      for(var k = 1; k <= bottom_dots; k++) {
+        dot = document.createElement("DIV");
+        dot.classList.add("dot");
+        dot.setAttribute("id", "dot-" + k);
+        dot_container.appendChild(dot);
+      }
     }
 
     domino_body.appendChild(domino_half);

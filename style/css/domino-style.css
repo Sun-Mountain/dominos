@@ -33,10 +33,10 @@
     height: 12px;
     width: 12px; }
 
-.dot-count-1 {
-  grid-area: 2 / 2 / 2 / 2; }
-  .dot-count-1 .dot {
-    background-color: #121212; }
+.dot-count-1 .dot {
+  background-color: #121212; }
+.dot-count-1 #dot-1 {
+  grid-area: 2 / 2 / 2 / 2 !important; }
 
 .dot-count-2 .dot {
   background-color: #4AA564; }
