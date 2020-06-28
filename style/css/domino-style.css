@@ -86,4 +86,8 @@
 #dot-7 {
   grid-area: 2 / 1 / 2 / 1; }
 
+.hand {
+  display: flex;
+  flex-direction: row; }
+
 /*# sourceMappingURL=domino-style.css.map */
