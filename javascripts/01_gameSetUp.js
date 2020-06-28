@@ -16,11 +16,10 @@ function generateDominoSet() {
       domino_set.push({"top": x, "bottom": y});
     }
   }
-
-  domino_set.forEach(buildDominos);
+  // domino_set.forEach(buildDominos);
 };
 
-function buildDominos(item, index) {
+function buildDominos(item, index, player_hand) {
   // variables
   top_dots = item.top;
   bottom_dots = item.bottom;
@@ -70,5 +69,5 @@ function buildDominos(item, index) {
   }
 
   // make domino
-  document.getElementById("box_of_dominos").appendChild(domino_container);
+  document.getElementById(player_hand).appendChild(domino_container);
 };

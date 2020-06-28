@@ -3,12 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dominos</title>
   <link rel="stylesheet" href="style/css/domino-style.css">
 </head>
 <body>
+  <div>
+    <button onclick="startGame()">Start Game</button>
+    <button onclick="resetDominos()">Reset</button>
+  </div>
   <div id="box_of_dominos">
+  </div>
+  <div class="hand" id="comp-1">
+    Computer
+  </div>
+  <div class="hand" id="player">
+    Player
   </div>
 </body>
 <script src="./javascripts/01_gameSetUp.js"></script>
+<script src="./javascripts/02_gameStart.js"></script>
 </html>
